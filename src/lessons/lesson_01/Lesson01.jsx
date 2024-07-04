@@ -20,13 +20,13 @@ export default function Lesson01() {
   };
 
   // отображение на странице будет зависеть от значения в этой переменной
-  const isLogin = false
+  const isLogin = true
 
   return (
     <div className={classContainer}>
       <h4>{heading}</h4>
       <h5>Особенности компонента:</h5>
-      <ul>
+      <ul id='lesson1'>
         <li>Имеет расширение JSX</li>
         <li>Называется с большой буквы</li>
         <li>Компонент это функция</li>
@@ -36,6 +36,7 @@ export default function Lesson01() {
       </ul>
       <h5>Пример работы с динамическими данными:</h5>
       <span>{formatName(user)}</span>
+
       <h5>Пример условного отображения c тернарным оператором:</h5>
       <span>Пользователь {isLogin ? 'в данный момент' : 'совсем не'} авторизован</span>
 

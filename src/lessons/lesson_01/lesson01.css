@@ -5,4 +5,13 @@
   flex-direction: column;
   /* выравниваем по центру */
   align-items: center;
+  font-size: 25px;
+}
+#lesson1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.h5{
+  padding-top: 20px;
 }
