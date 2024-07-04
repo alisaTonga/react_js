@@ -1,3 +1,7 @@
+*{
+  background-color: #f4eafa;
+  margin: 0;
+  padding: 0;}
 .App {
   text-align: center;
 }
@@ -35,4 +39,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+header{
+  align-content: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+#pct_panda{
+  justify-items:flex-start;
+  align-content: space-around;
+  align-items: center;
+  display: grid;
+  justify-content: left;
+  width: 10%;
+  border-radius: 40%;
+  z-index: 1;
+}
+#My_name{
+  align-items: center;
+  justify-items:flex-start;
+  align-content: space-around;
+  color: blueviolet;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 38px;
+  display: flex;
+  justify-content: left;
+  padding-bottom: 20px;
+  padding-top: 30px;
+
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(219, 41, 41);
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: blueviolet;
+  padding-bottom: 20px;
+}
+
+#hobbies{
+  display:grid;
+  justify-items:flex-start;
+  padding-left: 100px;
+  padding-top: 40px;
+  font-weight: bold;
+  color: rgb(122, 69, 172);
+  font-size: 20px;
+}
+
+li{
+  padding-bottom: 15px;
 }
