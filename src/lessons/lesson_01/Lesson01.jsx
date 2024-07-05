@@ -23,7 +23,7 @@ export default function Lesson01() {
   const isLogin = true
 
   return (
-    <div className={classContainer}>
+    <div className={"lesson_container"}>
       <h4>{heading}</h4>
       <h5>Особенности компонента:</h5>
       <ul id='lesson1'>
