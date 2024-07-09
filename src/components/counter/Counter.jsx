@@ -26,7 +26,7 @@ export default function Counter() {
     };
 
     return (
-    <div className="lesson-container">
+    <div className="lesson_container">
         <h4>Counter</h4>
         <div>
         <button onClick={handleMinus}>-</button>

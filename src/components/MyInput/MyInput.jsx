@@ -1,5 +1,5 @@
-export default function MyInput(props){
+export default function MyInput({type,placeholder,label,name}){
     return(
-        <input className="my_Input" type={props.type}  placeholder = {props.placeholder} label= {props.label} name={props.name}  maxlength="28" size="30" />
+        <input className="my_Input" type={type}  placeholder = {placeholder} label= {label} name={name}/>
     )
 }
