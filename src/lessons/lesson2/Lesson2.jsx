@@ -1,3 +1,4 @@
+import Counter from "../../components/counter/Counter";
 import LoginForm from "../../components/loginForm/LoginForm";
 import MyButton from "../../components/myButton/myButton";
 
@@ -12,10 +13,11 @@ export default function Lesson2(){
             <p>React Props: methods trading information from component into component</p>
             <span>We want to use our component button with different data...</span>
             <div className="lesson2Buttons">
-            <MyButton name={'click'} onClick={handleClick}/>
-            <MyButton name={'submit'} onClick={handleSubmit}/>
-            <MyButton name={'🤩'} onClick={handleEmoji}/> 
+            <MyButton type={'button'} name={'click'} onClick={handleClick}/>
+            <MyButton type={'button'} name={'submit'} onClick={handleSubmit}/>
+            <MyButton type={'button'}name={'🤩'} onClick={handleEmoji}/> 
             <LoginForm />     
+            <Counter />
             </div>
 
         </div>

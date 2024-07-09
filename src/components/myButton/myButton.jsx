@@ -1,4 +1,4 @@
 import './myButton.css'
-export default function MyButton(props){
-    return <button type={props.type} onClick={props.onClick} className='myButton'>{props.name}</button>
+export default function MyButton({type, onClick, name}){
+    return <button type={type} onClick={onClick} className='myButton'>{name}</button>
 }

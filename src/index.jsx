@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <App />
-    <Lesson01 />
-    <Homework02 />
+    {/* <Lesson01 />  */}
+    {/* <Homework02 /> */}
     <Lesson2 />
   </>
 );
